@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<title>Dark/Light Mode</title>
+</head>
+<link href="style.css" rel="stylesheet">
+  <body>
+    
+    <div class="container">
+      <img src="C:\Users\HP\Downloads\logo.jpg">
+      <h1>Hello Atechz</h1>
+      <h2>I Love to code</h2>
+      <a href="https://www.google.com">My Services</a>
+      <a href="https://cloudfiery.com">My Works</a>
+      <p>I haven't always been a coder, but ever since I created my first
+        webpage I've been hooked. Now I create websites for clients all around
+        the world </p>
+      <a href="https://www.linkedin.com/in/afreen-asraf" target="_blank">Linkedin</a>
+      <a href="https://be.net/afreenasraf" target="_blank">Behance Profile</a>
+      <button onclick="toggleDayMode()">Dark/Light Mode</button>
+    </div>
+    <script>
+      function toggleDayMode() {
+        var body = document.body;
+        body.classList.toggle("day-mode");
+      }
+    </script>
+  </body>
+</html>
